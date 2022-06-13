@@ -75,9 +75,9 @@
     },
     "projects": {
       "type": "relation",
-      "relation": "oneToMany",
+      "relation": "manyToMany",
       "target": "api::project.project",
-      "mappedBy": "form_field"
+      "inversedBy": "form_fields"
     }
   }
 }
