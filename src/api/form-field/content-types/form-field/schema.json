@@ -64,12 +64,6 @@
         }
       }
     },
-    "projects": {
-      "type": "relation",
-      "relation": "oneToMany",
-      "target": "api::project.project",
-      "mappedBy": "form_field"
-    },
     "Label": {
       "pluginOptions": {
         "i18n": {
@@ -78,6 +72,12 @@
       },
       "type": "string",
       "required": false
+    },
+    "projects": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::project.project",
+      "mappedBy": "form_field"
     }
   }
 }

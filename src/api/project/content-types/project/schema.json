@@ -50,12 +50,6 @@
         }
       }
     },
-    "form_field": {
-      "type": "relation",
-      "relation": "manyToOne",
-      "target": "api::form-field.form-field",
-      "inversedBy": "projects"
-    },
     "Active": {
       "pluginOptions": {
         "i18n": {
@@ -64,6 +58,21 @@
       },
       "type": "boolean",
       "required": true
+    },
+    "Slug": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string",
+      "required": true
+    },
+    "form_field": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::form-field.form-field",
+      "inversedBy": "projects"
     }
   }
 }
