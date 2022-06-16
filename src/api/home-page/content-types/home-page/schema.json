@@ -16,14 +16,6 @@
     }
   },
   "attributes": {
-    "Header": {
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      },
-      "type": "string"
-    },
     "Slogan": {
       "pluginOptions": {
         "i18n": {
