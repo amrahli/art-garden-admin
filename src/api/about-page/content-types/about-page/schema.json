@@ -1,10 +1,10 @@
 {
   "kind": "singleType",
-  "collectionName": "contents",
+  "collectionName": "about_pages",
   "info": {
-    "singularName": "content",
-    "pluralName": "contents",
-    "displayName": "Content"
+    "singularName": "about-page",
+    "pluralName": "about-pages",
+    "displayName": "AboutPage"
   },
   "options": {
     "draftAndPublish": true
@@ -15,22 +15,22 @@
     }
   },
   "attributes": {
-    "Key": {
-      "pluginOptions": {
-        "i18n": {
-          "localized": false
-        }
-      },
-      "type": "string",
-      "required": true
-    },
-    "Value": {
+    "OurStory_Header": {
       "pluginOptions": {
         "i18n": {
           "localized": true
         }
       },
       "type": "string",
+      "required": true
+    },
+    "OurStory_Content": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "text",
       "required": true
     }
   }
