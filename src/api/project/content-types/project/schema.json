@@ -72,7 +72,7 @@
       "type": "relation",
       "relation": "manyToMany",
       "target": "api::form-field.form-field",
-      "inversedBy": "projects"
+      "mappedBy": "projects"
     }
   }
 }

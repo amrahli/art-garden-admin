@@ -48,7 +48,8 @@
         "date",
         "checkbox",
         "radio",
-        "select"
+        "select",
+        "textarea"
       ],
       "pluginOptions": {
         "i18n": {
